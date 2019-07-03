@@ -39,4 +39,5 @@ public class SortandSumTest {
         String t=ss.sortDecreasingOrderAndPrintSumOfEvenNumbers("6634");
         assertEquals("Sorted number in non-increasing order 6643sum of even numbers is 16 true",t);
     }
+
 }

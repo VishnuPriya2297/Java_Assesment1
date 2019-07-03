@@ -1,5 +1,7 @@
 package main.java.com.stackroute.junit;
-
+/*
+checking whether a number is even or ofdd and lies between 20 and 30
+ */
 
 public class EvenOdd {
 

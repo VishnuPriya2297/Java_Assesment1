@@ -1,4 +1,7 @@
 package main.java.com.stackroute.junit;
+/*
+program to generate reverse of  a string
+ */
 public class StringReverse {
 
     public String StringReverseWithoutStringBuffer(String str)
@@ -7,14 +10,9 @@ public class StringReverse {
         String reverse=" ";
         for(int i=length-1;i>=0;i--)
         {
-           // for(int j=0;j<length;j++)
-            //{
-            //reverse.charAt(i)=str.charAt(i);
-           // System.out.println(str.charAt(i));
-            //}
-            reverse = reverse + str.charAt(i);
+            reverse = reverse + str.charAt(i);//addinh the charectres in the reverse order
 
         }
-        return reverse;
+        return reverse;//returning the final result
     }
 }

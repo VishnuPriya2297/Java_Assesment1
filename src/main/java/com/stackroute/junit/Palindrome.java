@@ -1,4 +1,7 @@
 package main.java.com.stackroute.junit;
+/*
+program to generate palindrome of a given number and calculating the sum of even numbers and comparing with 25
+ */
 public class Palindrome {
 
 
@@ -18,7 +21,7 @@ public class Palindrome {
         }
         if (m == reverse) {//comparing the numbers
 
-            while(reverse>0)//calculating the summ of even numbers
+            while(reverse>0)//calculating the sum of even numbers
             {
                 check=reverse%10;
                 if(check%2==0)
